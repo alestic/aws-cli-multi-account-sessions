@@ -79,7 +79,7 @@ Clear out bash variables holding temporary credentials:
     aws-session-cleanup
 
 Of course, this might not work for you if you don't have things set up
-quite the same way as me. Perhaps you should go back and read the blog
+quite the same way as I do. Perhaps you should go back and read the blog
 post above?
 
 ## Author

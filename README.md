@@ -5,7 +5,7 @@ accounts with MFA
 
 ## Blog Post
 
-For more background information and explaination for how to use this,
+For more background information and explanation for how to use this,
 please read this blog post:
 
 > <https://alestic.com/2019/12/aws-cli-across-organization-accounts/>

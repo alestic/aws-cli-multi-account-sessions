@@ -19,16 +19,17 @@ accounts.
 
 Clone this repo wherever you like:
 
-    mkdir -p src
-    cd src
-    git clone git@github.com:alestic/aws-cli-multi-account-sessions.git
+    mkdir -p $HOME/src && (
+      cd     $HOME/src &&
+      git clone git@github.com:alestic/aws-cli-multi-account-sessions.git
+    )
 
 Add something like this to `$HOME/.bashrc` using the values for
 `source_profile` and `mfa_serial` from your aws-cli config file.
 
     # https://github.com/alestic/aws-cli-multi-account-sessions
-    test -x src/aws-cli-multi-account-sessions/functions.sh &&
-     source src/aws-cli-multi-account-sessions/functions.sh
+    test -x $HOME/src/aws-cli-multi-account-sessions/functions.sh &&
+     source $HOME/src/aws-cli-multi-account-sessions/functions.sh
     export AWS_SESSION_SOURCE_PROFILE=your_aws_cli_source_profile
     export AWS_SESSION_MFA_SERIAL=arn:aws:iam::YOUR_ACCOUNT:mfa/YOUR_USER
 

@@ -30,7 +30,7 @@ Add something like this to `$HOME/.bashrc` using the values for
     # https://github.com/alestic/aws-cli-multi-account-sessions
     test -x $HOME/src/aws-cli-multi-account-sessions/functions.sh &&
      source $HOME/src/aws-cli-multi-account-sessions/functions.sh
-    export AWS_SESSION_SOURCE_PROFILE=your_aws_cli_source_profile
+    export AWS_SESSION_SOURCE_PROFILE=default
     export AWS_SESSION_MFA_SERIAL=arn:aws:iam::YOUR_ACCOUNT:mfa/YOUR_USER
 
 Then load it up in your current shell:

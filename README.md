@@ -39,7 +39,7 @@ Add something like this to `$HOME/.bashrc` using the values for
 
 Specify the role you can assume in all accounts:
 
-    role="admin"
+    role="admin" # Yours might be called "OrganizationAccountAccessRole"
 
 Get a list of all accounts in the AWS Organization:
 

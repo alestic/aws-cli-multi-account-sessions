@@ -10,12 +10,12 @@ please read this blog post:
 
 > <https://alestic.com/2019/12/aws-cli-across-organization-accounts/>
 
-## Setup
-
 You didn't read that, did you?
 
 Ok, here are the quick notes I use to set this up and use it in my
 accounts.
+
+## Setup
 
 Clone this repo wherever you like:
 

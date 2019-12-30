@@ -77,9 +77,12 @@ Of course, this might not work for you if you don't have things set up
 quite the same way as me. Perhaps you should go back and read the blog
 post above?
 
-## Support (not)
+## Author
 
-This is not intended to be fully supported open source software. You
-may copy and use it as you see fit, but I am less likely than usual to
-add feature enhancements on request or be able to debug your AWS
-account setup for this.
+Eric Hammond
+<https://twitter.com/esh>
+
+## Credit
+
+All the good in this is based on example code from Jennine
+Townsend. All the bad is mine.

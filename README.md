@@ -57,8 +57,10 @@ Run once to create temporary session credentials with MFA:
 
     aws-session-init
 
-Iterate through AWS accounts, running AWS CLI commands in each
-account/role:
+Iterate through AWS accounts using `aws-session-set` to specify the
+account/role you want to to use for running commands. Run AWS CLI
+commands in that account/role by prefixing the command with
+`aws-session-run`
 
     for account in $accounts; do
       aws-session-set $account $role || continue

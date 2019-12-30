@@ -41,7 +41,7 @@ aws-session-init() {
 aws-session-set() {
   # Sets: aws_access_key_id aws_secret_access_key aws_session_token
   local account=$1
-  local role=$2
+  local role=${2:-$AWS_SESSION_ROLE}
   local name=${3:-aws-session-access}
   read -r aws_access_key_id \
           aws_secret_access_key \

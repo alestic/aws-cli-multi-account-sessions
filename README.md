@@ -33,6 +33,8 @@ Add something like this to `$HOME/.bashrc` using the values for
     export AWS_SESSION_SOURCE_PROFILE=your_aws_cli_source_profile
     export AWS_SESSION_MFA_SERIAL=arn:aws:iam::YOUR_ACCOUNT:mfa/YOUR_USER
 
+Then load it up in your current shell:
+
     source $HOME/.bashrc
 
 ## Usage

@@ -32,6 +32,7 @@ aws-session-init() {
            $mfa_options \
            --output text \
            --query 'Credentials.[AccessKeyId,SecretAccessKey,SessionToken]')
+  test -n "$source_access_key_id" && return 0 || return 1
 }
 
 #
